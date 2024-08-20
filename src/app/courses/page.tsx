@@ -3,14 +3,14 @@
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import courseData from "../../data/music_course.json"
- 
+import Image from "next/image";
 const CoursesPage = () => {
     return (
        <div className="py-24 mt-10 ">
   <h1 className="text-center  text-2xl md:text-4xl font-bold">Our All Courses {courseData.courses.length}</h1>
 <div className="grid grid-cols-1 px-7 md:grid-cols-3 gap-5 ">
            {courseData.courses.map((item)=>(
-            <CardContainer className="inter-var">
+            <CardContainer key={item.id} className="inter-var">
             <CardBody className="bg-gray-50   relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]    h-auto rounded-xl p-6 border  ">
               <CardItem
                 translateZ="50"
@@ -25,7 +25,7 @@ const CoursesPage = () => {
                 {item.description}
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <img
+                <Image
                   src={item.image}
                   height="1000"
                   width="1000"

@@ -35,6 +35,7 @@ This project is built with the following technologies:
 To get started with the project, clone the repository and install the dependencies.
 
 ```bash
-git clone https://github.com/your-username/music-brand.git
+gh repo clone rimanroni/music-courses-with-nextjs
+
 cd music-brand
 npm install
