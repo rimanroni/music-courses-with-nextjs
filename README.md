@@ -1,6 +1,7 @@
 # Music Brand
 
 Music Brand is a web application built using the Next.js framework. This project is designed to help users discover and interact with various music-related content. The application leverages modern web technologies such as React, Tailwind CSS, and Framer Motion for smooth animations.
+ <img src="/home page img.png" />
 
 ## Table of Contents
 
@@ -41,4 +42,3 @@ cd music-brand
 npm install
 
 
-<img src="/home page img.png" />
