@@ -39,3 +39,6 @@ gh repo clone rimanroni/music-courses-with-nextjs
 
 cd music-brand
 npm install
+
+
+ ![Project Screenshot]('/home page img.png')
