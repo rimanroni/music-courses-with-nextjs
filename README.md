@@ -41,4 +41,4 @@ cd music-brand
 npm install
 
 
- ![Project Screenshot]('/home page img.png')
+<img src="/home page img.png" />
